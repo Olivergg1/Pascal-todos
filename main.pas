@@ -1,7 +1,7 @@
 program Todos;
 {$mode ObjFPC}
 
-uses crt, sysutils, dateutils, strutils, SQLHelperUnit, InputUnit, LogUnit, sqlite3conn;
+uses crt, sysutils, dateutils, strutils, SQLiteUnit, InputUnit, LogUnit, sqlite3conn;
 
 // Types
 type 
