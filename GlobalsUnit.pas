@@ -4,7 +4,7 @@ interface
 
 type TEnvironment = (Development, Production);
 
-const Environment: TEnvironment = Development;
+const ENVIRONMENT: TEnvironment = Development;
 const DATABASE_FILENAME: string = 'todos.sqlite';
 
 implementation
