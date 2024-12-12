@@ -1,0 +1,7 @@
+data.csv
+
+**/*.o
+**/*.exe
+**/*.sqlite
+**/*.ppu
+**/*.dll
