@@ -25,7 +25,7 @@ begin
     AddTodo();
   except
     on E: Exception do
-      Writeln('An error occurred: ', E.Message);
+      ErrorLog('An error occurred: ' + E.Message);
   end;
 end;
 
