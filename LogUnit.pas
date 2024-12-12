@@ -11,7 +11,7 @@ implementation
 
 procedure Devlog(str: string);
 begin
-  if (Environment = Development) then
+  if (ENVIRONMENT = Development) then
   begin
     // Set text color to blue
     TextColor(11);
